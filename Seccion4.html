@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Volt/Design</title>
+	<link rel="stylesheet" type="text/css" href="Estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="encabezado">
+		<span><img src="imagenes/logos/Volt1.png" height="48,74px" width="190px"></span>
+			<a href="Index.html"><span class="link">Inicio</span></a>
+			<a href="Seccion1.html"><span class="link">¿Quienes somos?</span></a>
+			<a href="Seccion2.html"><span class="link">Servicios</span></a>
+			<a href="Seccion3.html"><span class="link">Nuestros trabajos</span></a>
+			<a href="Seccion4.html"><span class="link">Contacto</span></a>
+	</header>
+	<br><br>
+
+	<form action="#" method="post" class="fondoForm">
+			<fieldset>
+				<legend class="titulos2">Contactanos</legend>
+				<label for="nombre" class="formulario">Nombre/Apellido</label>
+				<input type="text" name="nombre" class="formulario"><br><br>
+
+				<label for="correo" class="formulario">Correo</label>
+				<input type="text" name="correo" class="formulario"><br><br>
+
+				<label for="servicio" class="formulario">Servicio</label>
+			<select name="servicio" class="select">
+				<option value="Diseño Digital">Diseño Grafico</option>
+				<option value="Desarrollo Web">Desarrollo Web</option>
+				<option value="Marketing Digital">Marketing Digital</option>
+				<option value="Comunicacion y Redes">Comunicacion y Redes</option>
+
+			</select><br><br>
+
+			<label for="Mensaje" class="formulario">Mensaje</label><br><br>
+			<textarea class="formulario"></textarea><br><br>
+
+			<label for="newsletter" class="formulario">¿Queres recibir novedades sobre nuestro trabajo?</label>
+			<input type="checkbox" name="acepta" value="1"><br><br>
+
+			<input type="reset" name="reset" value="Resetear formulario">
+			<input type="submit" name="submit" value="Enviar">
+
+		</fieldset>
+	</form>
+	<footer class="fondoPie">
+			<img src="imagenes/logos/voltpie.png" height="25px" width="25px">
+			<span id="pie"></span>
+			<span id="pie">® Todos los derechos reservados</span>
+			<img src="imagenes/logos/Redes-Sociales.png">
+		</footer>
+</body>
+</html>

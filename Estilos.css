@@ -1,0 +1,125 @@
+		.encabezadoIndex {
+			background-color: #D6D4C7;
+			width: auto;
+			height: 60px;
+
+		}
+
+
+		.link {
+			background-color: #D6D4C7;
+			color: #52575d;
+			font-family: roboto, sans-serif;
+			font-style: medium 500;
+			text-transform: uppercase;
+			padding: 5px;	
+		}
+
+		.titulos1 {
+			color: #52575d;
+			font-family: Futura;
+			font-style: bold;
+
+		}
+
+		.titulos2 {
+			color: #f6f4e6;
+			font-family: Futura;
+			font-style: bold;
+		}
+
+		h3 strong {
+			color: #fdcc43;		
+		}
+
+		h4 {
+			color: #fdcc43;
+		}
+	
+		h1 {
+			color: #52575d;
+		}
+
+		th strong {
+			background-color: #52575d;
+			color: #fdcc43;
+			font-family: Futura;
+			font-style: bold;
+		}
+
+		td strong {
+			color: #52575d;
+			font-family: 'Roboto', sans-serif;
+			font-style: bold;
+		}
+
+		.liServicios {
+			color: #41444b;
+			font-family: 'Roboto', sans-serif;
+			list-style-type: square;
+		}
+		
+		.parrafo1 {
+			background-color: #EDECD8;
+			color: #41444b;
+			font-family: 'Roboto', sans-serif;
+			padding: 5px;
+		}
+
+		.ultimosTrabajos {
+			background-color: #fddb3a;
+			height: 35vh;
+			color: #52575d;
+			font-family: Futura;
+			font-size: 22px;
+			font-style: bold;
+			padding: 20px;
+
+		}
+
+		.conoceMas {
+			background-color: #DBAB27;
+			padding: 5px;
+			color: #f6f4e6;
+			font-family: 'Roboto', sans-serif;
+			font-style: medium;
+			padding: 10px;
+			margin: 10px;
+
+		}
+		.fondoTabla{
+			background-color: #52575d;
+		}
+
+		.fondoForm {
+			background-color: #52575d;
+		}
+
+		.formulario {
+			color: #f6f4e6;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.fondoPie {
+			background-color: #393b44;
+			height: 50px;
+			width: auto;
+		}
+
+		#pie {
+			color: #f6f4e6;
+			font-style: bold;
+			font-family: Roboto, sans-serif;
+			text-align: center;
+
+		}
+
+		.redesSociales {
+			position: absolute;
+			right: 20px;
+		}
+
+		.logoPie {
+			position: absolute;
+			left: 20px;
+		}
